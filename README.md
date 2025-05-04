@@ -1,2 +1,2 @@
-# cppProjectTemplate
-This is a project template for cpp project with cmake build system
+# myCustomBash
+This is a simple custom bash
