@@ -11,7 +11,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # Add subdirectories for src, app, and third_party
+add_subdirectory(external)
 add_subdirectory(src)
+# add executable
 add_subdirectory(app)
-# add_subdirectory(external)
 
